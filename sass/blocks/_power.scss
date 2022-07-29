@@ -126,8 +126,13 @@
 
 }
 
+.power__box{
+  height: 200px;
+}
+
 .power__box--content{
   width:267px;
+  height: 100px;
   margin-top: 24px;
 }
 
@@ -167,3 +172,9 @@
   line-height: 16px;
 }
 
+.power__right{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 32px;
+}
