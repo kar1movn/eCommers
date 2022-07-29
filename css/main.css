@@ -1,26 +1,21 @@
 /* open-sans-regular - latin */
 @font-face {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/open-sans-v29-latin-regular.woff2") format("woff2"), url("../fonts/open-sans-v29-latin-regular.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url("../fonts/open-sans-v29-latin-regular.woff2") format("woff2"), url("../fonts/open-sans-v29-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
 /* poppins-600 - latin */
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  src: url("../fonts/poppins-v20-latin-600.woff2") format("woff2"), url("../fonts/poppins-v20-latin-600.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url("../fonts/poppins-v20-latin-600.woff2") format("woff2"), url("../fonts/poppins-v20-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
 *,
 *::after,
 *::before {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -43,10 +38,8 @@ body {
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections
@@ -81,13 +74,9 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
 }
 
 /**
@@ -95,10 +84,8 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
@@ -115,13 +102,10 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
-  /* 2 */
+          text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -139,10 +123,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
@@ -192,14 +174,10 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
 }
 
 /**
@@ -207,8 +185,7 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input {
-  /* 1 */
+input { /* 1 */
   overflow: visible;
 }
 
@@ -217,8 +194,7 @@ input {
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select {
-  /* 1 */
+select { /* 1 */
   text-transform: none;
 }
 
@@ -226,9 +202,9 @@ select {
  * Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type=button],
+[type=reset],
+[type=submit] {
   -webkit-appearance: button;
 }
 
@@ -236,9 +212,9 @@ button,
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -247,9 +223,9 @@ button::-moz-focus-inner,
  * Restore the focus styles unset by the previous rule.
  */
 button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -267,19 +243,12 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
 }
 
 /**
@@ -300,20 +269,17 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-[type="checkbox"],
-[type="radio"] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
 }
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -321,17 +287,15 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type="search"]::-webkit-search-decoration {
+[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -340,10 +304,8 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /* Interactive
@@ -379,50 +341,30 @@ template {
 }
 
 .nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   padding: 10px 0;
 }
-
 .nav__left h2 {
-  color: #151515;
-  font-family: 'Poppins';
+  color: rgb(21, 21, 21);
+  font-family: "Poppins";
   font-weight: 600;
   font-size: 32px;
   line-height: 48px;
 }
-
 .nav__links--wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
 .nav__links {
   margin-left: 24px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .nav__links span {
-  color: #151515;
+  color: rgb(21, 21, 21);
   font-size: 12px;
   line-height: 16px;
   margin: 0;
@@ -433,17 +375,17 @@ template {
 .numb {
   border-radius: 12px;
   padding: 0 8px;
-  background-color: #f4f8ec;
+  background-color: rgb(244, 248, 236);
   margin: 0;
-  color: #6a983c;
-  font-family: 'Poppins';
+  color: rgb(106, 152, 60);
+  font-family: "Poppins";
   font-weight: 600px;
   font-size: 12px;
   line-height: 18px;
 }
 
 .power__left h3 {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
@@ -453,19 +395,16 @@ template {
   text-align: left;
   margin-bottom: 48px;
 }
-
 .archives__list {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-
 .archives__item {
   margin-bottom: 12px;
 }
-
 .archives__link {
-  color: #6a983c;
+  color: rgb(106, 152, 60);
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
@@ -481,19 +420,16 @@ template {
   text-align: left;
   margin-bottom: 48px;
 }
-
 .category__list {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-
 .category__item {
   margin-bottom: 12px;
 }
-
 .category__link {
-  color: darkgray;
+  color: rgb(169, 169, 169);
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
@@ -509,7 +445,7 @@ template {
 }
 
 .join p {
-  color: darkgray;
+  color: rgb(169, 169, 169);
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
@@ -528,28 +464,22 @@ template {
   background-color: #F9F9F9;
 }
 
-.input::-webkit-input-placeholder {
+.input::-moz-placeholder {
   width: 150px;
   background-color: #F9F9F9;
-  color: darkgray;
+  color: rgb(169, 169, 169);
 }
 
 .input:-ms-input-placeholder {
   width: 150px;
   background-color: #F9F9F9;
-  color: darkgray;
-}
-
-.input::-ms-input-placeholder {
-  width: 150px;
-  background-color: #F9F9F9;
-  color: darkgray;
+  color: rgb(169, 169, 169);
 }
 
 .input::placeholder {
   width: 150px;
   background-color: #F9F9F9;
-  color: darkgray;
+  color: rgb(169, 169, 169);
 }
 
 .inp__wrapper {
@@ -559,28 +489,20 @@ template {
   border-radius: 12px;
   border: 1px solid #D1D1D1;
   padding: 11px 16px 12px 21px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 400px;
 }
 
 .inp__wrapper span {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 600;
   font-size: 15px;
   line-height: 22px;
 }
 
 .power__wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -598,11 +520,11 @@ template {
 .power__box--content a {
   margin: 0;
   text-decoration: none;
-  color: #6a983c;
+  color: rgb(106, 152, 60);
   padding: 0 8px;
   background-color: #F4F8EC;
   border-radius: 12px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 600px;
   font-size: 12px;
   line-height: 18px;
@@ -612,7 +534,7 @@ template {
   margin: 0;
   margin-top: 8px;
   margin-bottom: 16px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 600px;
   font-size: 18px;
   line-height: 27px;
@@ -620,12 +542,8 @@ template {
 
 .author {
   width: 116px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .author span {
@@ -636,63 +554,41 @@ template {
 }
 
 .power__right {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .hero {
-  max-width: 1260px;
-  margin: 0 auto;
-  margin-bottom: 100px;
+  margin-bottom: 96px;
 }
 
 .top {
   padding: 8px 0;
   margin-bottom: 48px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
 .top__title {
   margin: 0;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 48px;
   color: #151515;
 }
-
 .top__view {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 25px;
 }
-
 .top__view--link {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 5px;
   text-decoration: none;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
@@ -700,153 +596,124 @@ template {
 }
 
 .bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .bottom__left {
   width: 569px;
   height: 400px;
   margin-right: 32px;
   padding: 24px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   border-radius: 12px;
+  background: linear-gradient 0deg, #000000 0%, rgba(0, 0, 0, 0) 100%;
   background-image: url(../../images/hero-left.png);
   background-repeat: no-repeat;
 }
-
 .bottom__left--top {
   width: 40px;
   height: 18px;
-  padding: 1px 8px;
+  padding: 0 8px;
   margin-bottom: 195px;
   text-decoration: none;
   background: #F4F8EC;
   border-radius: 12px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 600;
   font-size: 12px;
   line-height: 18px;
   color: #6A983C;
 }
-
 .bottom__left--text {
   margin-bottom: 8px;
   text-decoration: none;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 600;
   font-size: 22px;
   line-height: 33px;
   color: #FFFFFF;
 }
-
 .bottom__left--bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
+  text-decoration: none;
 }
-
 .bottom__left--bottom--source {
   margin-left: 8px;
   margin-right: 16px;
   text-decoration: none;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   color: #FFFFFF;
 }
-
 .bottom__left--bottom--date {
   margin-left: 8px;
   margin-right: 16px;
   text-decoration: none;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   color: #FFFFFF;
 }
-
 .bottom__right {
   width: 569px;
   height: 400px;
   padding: 24px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   border-radius: 12px;
+  background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
   background-image: url(../../images/hero-right.png);
   background-repeat: no-repeat;
 }
-
 .bottom__right--top {
   width: 40px;
   height: 18px;
-  padding: 1px 8px;
+  padding: 0 8px;
   margin-bottom: 195px;
   text-decoration: none;
   background: #F4F8EC;
   border-radius: 12px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 600;
   font-size: 12px;
   line-height: 18px;
   color: #6A983C;
 }
-
 .bottom__right--text {
   margin-bottom: 8px;
   text-decoration: none;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 600;
   font-size: 22px;
   line-height: 33px;
   color: #FFFFFF;
 }
-
 .bottom__right--bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
+  text-decoration: none;
 }
-
 .bottom__right--bottom--source {
   margin-left: 8px;
   margin-right: 16px;
   text-decoration: none;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   color: #FFFFFF;
 }
-
 .bottom__right--bottom--date {
   margin-left: 8px;
   margin-right: 16px;
   text-decoration: none;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   color: #FFFFFF;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
