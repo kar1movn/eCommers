@@ -1,0 +1,172 @@
+.hero {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 45px;
+}
+
+.top {
+    padding: 8px 0;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__title {
+        margin: 0;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 48px;
+        color: #151515;
+    }
+
+    &__view {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+
+        &--link {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            text-decoration: none;
+            font-family: 'Open Sans';
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+            color: #151515;
+        }
+    }
+}
+
+.bottom {
+    display: flex;
+
+    &__left {
+        width: 569px;
+        height: 400px;
+        margin-right: 32px;
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 12px;
+        background-image: url(../../images/hero-left.png);
+        background-repeat: no-repeat;
+
+        &--top {
+            width: 40px;
+            height: 18px;
+            padding: 1px 8px;
+            margin-bottom: 195px;
+            text-decoration: none;
+            background: #F4F8EC;
+            border-radius: 12px;
+            font-family: 'Poppins';
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 18px;
+            color: #6A983C;
+        }
+
+        &--text {
+            margin-bottom: 8px;
+            text-decoration: none;
+            font-family: 'Poppins';
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 33px;
+            color: #FFFFFF;
+        }
+
+        &--bottom {
+            display: flex;
+            align-items: center;
+
+            &--source {
+                margin-left: 8px;
+                margin-right: 16px;
+                text-decoration: none;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 16px;
+                color: #FFFFFF;
+            }
+
+            &--date {
+                margin-left: 8px;
+                margin-right: 16px;
+                text-decoration: none;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 16px;
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    &__right {
+        width: 569px;
+        height: 400px;
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 12px;
+        background-image: url(../../images/hero-right.png);
+        background-repeat: no-repeat;
+
+        &--top {
+            width: 40px;
+            height: 18px;
+            padding: 1px 8px;
+            margin-bottom: 195px;
+            text-decoration: none;
+            background: #F4F8EC;
+            border-radius: 12px;
+            font-family: 'Poppins';
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 18px;
+            color: #6A983C;
+        }
+
+        &--text {
+            margin-bottom: 8px;
+            text-decoration: none;
+            font-family: 'Poppins';
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 33px;
+            color: #FFFFFF;
+        }
+
+        &--bottom {
+            display: flex;
+            align-items: center;
+
+            &--source {
+                margin-left: 8px;
+                margin-right: 16px;
+                text-decoration: none;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 16px;
+                color: #FFFFFF;
+            }
+
+            &--date {
+                margin-left: 8px;
+                margin-right: 16px;
+                text-decoration: none;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 16px;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
