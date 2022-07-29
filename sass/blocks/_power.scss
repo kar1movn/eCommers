@@ -1,0 +1,169 @@
+.power__left h3{
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.archives{
+  text-align: left;
+  margin-bottom: 48px;
+  &__list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+
+  }
+  
+  &__item{
+    margin-bottom: 12px;
+
+  }
+
+  &__link{
+     color:rgba(106, 152, 60, 1);
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 19px;
+     margin-bottom: 12px;
+  }
+}
+
+.archives h3{
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.category{
+  text-align: left;
+  margin-bottom: 48px;
+  &__list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+
+  }
+  
+  &__item{
+    margin-bottom: 12px;
+
+  }
+  
+  &__link{
+     color:rgba(169, 169, 169, 1);
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 19px;
+     
+  }
+}
+
+.category h3{
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.join{
+  max-width: 269px;
+  
+}
+
+.join p{
+  color:rgba(169, 169, 169, 1);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.join h3{
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.input{
+  border: none;
+  width:150px;
+  background-color: #F9F9F9;
+}
+
+.input::placeholder{
+  width: 150px;
+  background-color: #F9F9F9;
+  
+  color: rgba(169, 169, 169, 1);
+}
+
+
+
+.inp__wrapper{
+  max-width: 269px;
+  background-color: #F9F9F9;
+  height: 42px;
+  border-radius: 12px;
+  border: 1px solid #D1D1D1;
+  padding: 11px 16px 12px 21px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 200px; 
+}
+
+.inp__wrapper span{
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+
+.power__wrapper{
+  display: flex;
+
+
+}
+
+.power__box--content{
+  width:267px;
+  margin-top: 24px;
+}
+
+.power__box--content a{
+  margin: 0;
+  text-decoration: none;
+  color:rgba(106, 152, 60, 1);
+  padding: 0 8px;
+  background-color: #F4F8EC;
+  border-radius: 12px;
+  font-family: 'Poppins';
+  font-weight: 600px;
+  font-size: 12px;
+  line-height: 18px;
+ 
+}
+.power__box--content h2{
+  margin: 0;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  font-family: 'Poppins';
+  font-weight: 600px;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+
+.author{
+  width:116px;
+  display: flex;
+  justify-content: space-between;
+}
+.author span{
+  color: #151515;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
